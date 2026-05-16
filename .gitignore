@@ -1,0 +1,10 @@
+*.exe
+.vs/
+lib/
+x64/
+*.jpg
+*.png
+*.mp4
+*.mpeg
+*.sln
+debug/

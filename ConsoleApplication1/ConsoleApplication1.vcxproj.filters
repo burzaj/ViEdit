@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Effects">
+      <UniqueIdentifier>{e16f1671-cd47-48f6-84b2-23b7b8e7e85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Effects">
+      <UniqueIdentifier>{cfb24d5b-d0a2-4e14-aa58-6de287d02782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\PreEffects">
+      <UniqueIdentifier>{faea9656-aa30-4e9d-a9ba-8a5b8cdbf937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\PreEffects">
+      <UniqueIdentifier>{53aa89ad-cc3c-4db4-8c3a-ef8db3199eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Controlers">
+      <UniqueIdentifier>{ba2f4156-9d73-4980-bff5-491881adff24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Controlers">
+      <UniqueIdentifier>{6bfe08ec-72d5-45aa-bc00-8ef8d612510e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\DataTypes">
+      <UniqueIdentifier>{4cf3d0fb-36d5-4133-9e2a-89ff388adba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\DataTypes">
+      <UniqueIdentifier>{d5fc5bfd-61bd-4675-944f-4477c05588bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Helpers">
+      <UniqueIdentifier>{204b1ed1-40a5-47f5-abc3-ac76b4fcbf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Helpers">
+      <UniqueIdentifier>{5405e583-c9f0-431a-83e6-ed6c4b23fca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Gui">
+      <UniqueIdentifier>{ffbc89ab-c8c6-45bd-bd0c-5d3f26939b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Gui">
+      <UniqueIdentifier>{e440d44a-00dc-4e13-89f1-7f76b1a1ee0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ViEdit.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AtkinsonDither.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalEffect.cpp">
+      <Filter>Pliki źródłowe\PreEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Pliki źródłowe\PreEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertical.cpp">
+      <Filter>Pliki źródłowe\PreEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Treshhold.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Palette.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Pliki źródłowe\Controlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Pliki źródłowe\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Pliki źródłowe\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxBrightness.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianBlur.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="AtkinsonColorDithering.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="initialization.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameProcessing.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FFmpegWrappers.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Abort.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skip.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Pow.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Pliki źródłowe\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Macros.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Pliki źródłowe\Controlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ViEditGui.cpp">
+      <Filter>Pliki źródłowe\Controlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Pliki źródłowe\Controlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectWrapper.cpp">
+      <Filter>Pliki źródłowe\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="process_win.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny-process.cpp">
+      <Filter>Pliki źródłowe\Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtkinsonDither.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalEffect.h">
+      <Filter>Pliki nagłówkowe\PreEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Pliki nagłówkowe\PreEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Palette.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Treshhold.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertical.h">
+      <Filter>Pliki nagłówkowe\PreEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Pliki nagłówkowe\Controlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Pliki nagłówkowe\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Pliki nagłówkowe\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Reset.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxBrightness.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianBlur.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="AtkinsonColorDithering.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="initialization.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegWrappers.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameProcessing.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Abort.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Skip.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Pow.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Pliki nagłówkowe\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Pliki nagłówkowe\Controlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViEditGui.h">
+      <Filter>Pliki nagłówkowe\Controlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Pliki nagłówkowe\Controlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectWrapper.h">
+      <Filter>Pliki nagłówkowe\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="effect.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

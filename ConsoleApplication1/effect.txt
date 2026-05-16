@@ -1,0 +1,4 @@
+scale(0.8)
+atk_dither
+treshhold(126)
+treshhold(-126)
